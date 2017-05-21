@@ -3,7 +3,7 @@
 # On the Chromebook:
 #
 DEV=/dev/mmcblk1
-MNT=/mnt
+MNT=/media/sdcard
 # Unmount from wherever ChromeOS decided to mount the device,
 # remount where we want:
 umount ${DEV}p2
